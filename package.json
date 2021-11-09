@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "MERN shopping app cart",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node backend/server",
-    "server": "nodemon backend/server",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
